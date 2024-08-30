@@ -1,0 +1,13 @@
+.Name {
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+ 
+}
+
+.firstName {
+    color: rgb(50, 199, 107);
+}
+
+.lastName {
+    color: rgb(62, 96, 190);
+}
