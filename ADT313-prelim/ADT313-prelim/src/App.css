@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #1b1c1d;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(187, 175, 175);
+}
+
+.App-link {
+  color: #19acd4;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+    body {
+      background-color: #1e1e1e; /* Dark background */
+      color: #ffffff; /* White text for readability */
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+      color: #00aaff; /* Light blue for headers */
+  }
+  
+  button {
+      background-color: #00aaff; /* Light blue button background */
+      color: white; /* White button text */
+      border: none; /* Remove default border */
+      border-radius: 5px; /* Rounded corners */
+      padding: 10px 15px; /* Padding for buttons */
+      cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  button:hover {
+      background-color: #007acc; /* Darker blue on hover */
+  }
+  
+  a {
+      color: #00aaff; /* Light blue links */
+  }
+  
+  input, textarea {
+      background-color: #ffffff; /* White input fields */
+      color: #000000; /* Black text in input fields */
+      border: 1px solid #cccccc; /* Light grey border */
+      border-radius: 5px; /* Rounded corners */
+      padding: 10px; /* Padding for input fields */
+  }
+  
+  input:focus, textarea:focus {
+      border-color: #00aaff; /* Light blue border on focus */
+      outline: none; /* Remove default outline */
+  }
+  }
+}
